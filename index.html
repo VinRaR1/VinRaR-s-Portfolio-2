@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VinRaR's Portfolio</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Full-screen Fluid Simulation Canvas -->
+  <canvas id="fluid-canvas"></canvas>
+
+  <!-- Site Content Overlay -->
+  <div id="content">
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar">
+      <div class="container flex justify-between items-center">
+        <a href="#" class="logo">VinRaR's Portfolio</a>
+
+        <!-- Hamburger for mobile -->
+        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Menu Links -->
+        <ul id="nav-menu" class="nav-menu flex gap-16">
+          <li><a href="#about" class="nav-link" aria-label="Go to About section">About</a></li>
+          <li><a href="#projects" class="nav-link" aria-label="Go to Projects section">Projects</a></li>
+          <li><a href="#skills" class="nav-link" aria-label="Go to Skills section">Skills</a></li>
+          <li><a href="#contact" class="nav-link" aria-label="Go to Contact section">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!-- About Section -->
+      <section id="about" class="section glass">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel semper lectus.</p>
+        <p>Proin vitae urna ac tortor malesuada sodales sed ac justo. Sed non ornare justo.</p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card glass"><h3>Project Coming Soon</h3></div>
+          <div class="project-card glass"><h3>Project Coming Soon</h3></div>
+          <div class="project-card glass"><h3>Project Coming Soon</h3></div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section glass">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+          <ul>
+            <li><strong>Frontend:</strong></li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+          <ul>
+            <li><strong>Tools:</strong></li>
+            <li>Git</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com" aria-label="Send email to VinRaR">Email</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="VinRaR on GitHub">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="VinRaR on LinkedIn">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Fluid simulation & UI logic -->
+  <script src="app.js" defer></script>
+</body>
+</html>
