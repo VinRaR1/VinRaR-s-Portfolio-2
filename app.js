@@ -14,7 +14,7 @@ function initConfig() {
         PRESSURE: 0.1,
         PRESSURE_ITERATIONS: 30,
         CURL: 1,
-        SPLAT_RADIUS: 0.1,
+        SPLAT_RADIUS: 0.15,
         SPLAT_FORCE: 10000,
         SHADING: true,
         COLOR_UPDATE_SPEED: 1,
